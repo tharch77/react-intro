@@ -1,8 +1,4 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Greeter from "./Greeter";
-import Counter from "./Counter";
-import MoodToggler from "./MoodToggler";
 import Cart from "./Cart";
 import "./styles.css";
 
@@ -16,13 +12,6 @@ function App() {
   return (
 		<div>
 			<Cart initialItems={items} />
-			{/* <Counter step={5} />
-			<Counter />
-			<MoodToggler />
-			<Navbar />
-			<Greeter name="Karen" age="62" excitement={4} />
-			<Greeter name="Tammy" excitement={2} />
-			<h1>HELLO FROM APP!</h1> */}
 		</div>
 	)
 }
